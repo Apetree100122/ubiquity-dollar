@@ -1,14 +1,6 @@
 [[plugins]]
-package = "@netlify/plugin-nextjs"
-
-[build]
-publish = "./"
-
-[context.development.environment]
-NETLIFY_NEXT_PLUGIN_SKIP = "true"
-
-[context.staging.environment]
-NETLIFY_NEXT_PLUGIN_SKIP = "true"
-
-[context.production.environment]
-NETLIFY_NEXT_PLUGIN_SKIP = "true"
+[package ="@netlify/plugin-nextjs"] 
+[build] 
+[publish ="./]
+[context.development.environment NETLIFY_NEXT_PLUGIN_SKIP = "false context.staging.environment] 
+[NETLIFY_NEXT_PLUGIN_SKIP = "false" context.production.environment]
